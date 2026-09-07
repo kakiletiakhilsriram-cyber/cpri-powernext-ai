@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw competition data
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+
+# Generated outputs
+outputs/*
+!outputs/data_profile/
+!outputs/data_profile/.gitkeep
+
+# Generated figures
+reports/figures/*
+
+# OS
+.DS_Store
+Thumbs.db
